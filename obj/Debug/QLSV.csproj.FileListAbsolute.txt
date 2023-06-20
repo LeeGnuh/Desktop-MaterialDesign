@@ -1,0 +1,151 @@
+D:\Code\C#\QLSV\bin\Debug\QLSV.exe.config
+D:\Code\C#\QLSV\bin\Debug\QLSV.exe
+D:\Code\C#\QLSV\bin\Debug\QLSV.pdb
+D:\Code\C#\QLSV\bin\Debug\MaterialDesignColors.dll
+D:\Code\C#\QLSV\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Code\C#\QLSV\bin\Debug\MaterialDesignColors.pdb
+D:\Code\C#\QLSV\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Code\C#\QLSV\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Code\C#\QLSV\obj\Debug\MainWindow.g.cs
+D:\Code\C#\QLSV\obj\Debug\App.g.cs
+D:\Code\C#\QLSV\obj\Debug\QLSV_MarkupCompile.cache
+D:\Code\C#\QLSV\obj\Debug\QLSV_MarkupCompile.lref
+D:\Code\C#\QLSV\obj\Debug\App.baml
+D:\Code\C#\QLSV\obj\Debug\MainWindow.baml
+D:\Code\C#\QLSV\obj\Debug\QLSV.g.resources
+D:\Code\C#\QLSV\obj\Debug\QLSV.Properties.Resources.resources
+D:\Code\C#\QLSV\obj\Debug\QLSV.csproj.GenerateResource.cache
+D:\Code\C#\QLSV\obj\Debug\QLSV.csproj.CoreCompileInputs.cache
+D:\Code\C#\QLSV\obj\Debug\QLSV.csproj.CopyComplete
+D:\Code\C#\QLSV\obj\Debug\QLSV.exe
+D:\Code\C#\QLSV\obj\Debug\QLSV.pdb
+D:\Code\C#\QLSV\obj\Debug\LoginWindow.g.cs
+D:\Code\C#\QLSV\obj\Debug\LoginWindow.baml
+D:\Code\C#\QLSV\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Code\C#\QLSV\obj\Debug\ResourceXAML\MainResource.baml
+D:\Code\C#\QLSV\obj\Debug\UserControlQLSV\ControlBarUC.g.cs
+D:\Code\C#\QLSV\obj\Debug\UserControlQLSV\ControlBarUC.baml
+D:\Code\C#\QLSV\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\Code\C#\QLSV\bin\Debug\System.Windows.Interactivity.dll
+D:\Code\C#\QLSV\bin\Debug\Microsoft.Expression.Interactions.xml
+D:\Code\C#\QLSV\bin\Debug\System.Windows.Interactivity.xml
+D:\Code\C#\QLSV\obj\Debug\DiemWindow.g.cs
+D:\Code\C#\QLSV\obj\Debug\DiemWindow.baml
+D:\Code\C#\QLSV\obj\Debug\GiangVienWindow.g.cs
+D:\Code\C#\QLSV\obj\Debug\GiangVienWindow.baml
+D:\Code\C#\QLSV\obj\Debug\SinhVienWindow.g.cs
+D:\Code\C#\QLSV\obj\Debug\SinhVienWindow.baml
+D:\Code\C#\QLSV\obj\Debug\MonHocWindow.g.cs
+D:\Code\C#\QLSV\obj\Debug\MonHocWindow.baml
+D:\Code\C#\QLSV\obj\Debug\TaiKhoanWindow.g.cs
+D:\Code\C#\QLSV\obj\Debug\TaiKhoanWindow.baml
+D:\Code\C#\QLSV\bin\Debug\EntityFramework.dll
+D:\Code\C#\QLSV\bin\Debug\EntityFramework.SqlServer.dll
+D:\Code\C#\QLSV\bin\Debug\EntityFramework.xml
+D:\Code\C#\QLSV\bin\Debug\EntityFramework.SqlServer.xml
+D:\Code\C#\QLSV\obj\Debug\QLSV_Content.g.cs
+D:\Code\C#\QLSV\obj\Debug\LopSHWindow.g.cs
+D:\Code\C#\QLSV\obj\Debug\LopSHWindow.baml
+D:\Code\C#\QLSV\obj\Debug\QLSV.csproj.AssemblyReference.cache
+D:\Code\C#\QLSV\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Code\C#\QLSV\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+E:\Code & Database\Windowns\Project\QLSV\bin\Debug\QLSV.exe.config
+E:\Code & Database\Windowns\Project\QLSV\bin\Debug\QLSV.exe
+E:\Code & Database\Windowns\Project\QLSV\bin\Debug\QLSV.pdb
+E:\Code & Database\Windowns\Project\QLSV\bin\Debug\EntityFramework.dll
+E:\Code & Database\Windowns\Project\QLSV\bin\Debug\EntityFramework.SqlServer.dll
+E:\Code & Database\Windowns\Project\QLSV\bin\Debug\MaterialDesignColors.dll
+E:\Code & Database\Windowns\Project\QLSV\bin\Debug\MaterialDesignThemes.Wpf.dll
+E:\Code & Database\Windowns\Project\QLSV\bin\Debug\Microsoft.Expression.Interactions.dll
+E:\Code & Database\Windowns\Project\QLSV\bin\Debug\System.Windows.Interactivity.dll
+E:\Code & Database\Windowns\Project\QLSV\bin\Debug\EntityFramework.xml
+E:\Code & Database\Windowns\Project\QLSV\bin\Debug\EntityFramework.SqlServer.xml
+E:\Code & Database\Windowns\Project\QLSV\bin\Debug\MaterialDesignColors.pdb
+E:\Code & Database\Windowns\Project\QLSV\bin\Debug\MaterialDesignThemes.Wpf.pdb
+E:\Code & Database\Windowns\Project\QLSV\bin\Debug\MaterialDesignThemes.Wpf.xml
+E:\Code & Database\Windowns\Project\QLSV\bin\Debug\Microsoft.Expression.Interactions.xml
+E:\Code & Database\Windowns\Project\QLSV\bin\Debug\System.Windows.Interactivity.xml
+E:\Code & Database\Windowns\Project\QLSV\obj\Debug\QLSV.csproj.AssemblyReference.cache
+E:\Code & Database\Windowns\Project\QLSV\obj\Debug\QLSV.csproj.SuggestedBindingRedirects.cache
+E:\Code & Database\Windowns\Project\QLSV\obj\Debug\DiemWindow.g.cs
+E:\Code & Database\Windowns\Project\QLSV\obj\Debug\GiangVienWindow.g.cs
+E:\Code & Database\Windowns\Project\QLSV\obj\Debug\LoginWindow.g.cs
+E:\Code & Database\Windowns\Project\QLSV\obj\Debug\LopSHWindow.g.cs
+E:\Code & Database\Windowns\Project\QLSV\obj\Debug\MainWindow.g.cs
+E:\Code & Database\Windowns\Project\QLSV\obj\Debug\MonHocWindow.g.cs
+E:\Code & Database\Windowns\Project\QLSV\obj\Debug\SinhVienWindow.g.cs
+E:\Code & Database\Windowns\Project\QLSV\obj\Debug\TaiKhoanWindow.g.cs
+E:\Code & Database\Windowns\Project\QLSV\obj\Debug\UserControlQLSV\ControlBarUC.g.cs
+E:\Code & Database\Windowns\Project\QLSV\obj\Debug\App.g.cs
+E:\Code & Database\Windowns\Project\QLSV\obj\Debug\QLSV_Content.g.cs
+E:\Code & Database\Windowns\Project\QLSV\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Code & Database\Windowns\Project\QLSV\obj\Debug\QLSV_MarkupCompile.cache
+E:\Code & Database\Windowns\Project\QLSV\obj\Debug\QLSV_MarkupCompile.lref
+E:\Code & Database\Windowns\Project\QLSV\obj\Debug\App.baml
+E:\Code & Database\Windowns\Project\QLSV\obj\Debug\DiemWindow.baml
+E:\Code & Database\Windowns\Project\QLSV\obj\Debug\GiangVienWindow.baml
+E:\Code & Database\Windowns\Project\QLSV\obj\Debug\LoginWindow.baml
+E:\Code & Database\Windowns\Project\QLSV\obj\Debug\LopSHWindow.baml
+E:\Code & Database\Windowns\Project\QLSV\obj\Debug\MainWindow.baml
+E:\Code & Database\Windowns\Project\QLSV\obj\Debug\MonHocWindow.baml
+E:\Code & Database\Windowns\Project\QLSV\obj\Debug\ResourceXAML\MainResource.baml
+E:\Code & Database\Windowns\Project\QLSV\obj\Debug\SinhVienWindow.baml
+E:\Code & Database\Windowns\Project\QLSV\obj\Debug\TaiKhoanWindow.baml
+E:\Code & Database\Windowns\Project\QLSV\obj\Debug\UserControlQLSV\ControlBarUC.baml
+E:\Code & Database\Windowns\Project\QLSV\obj\Debug\QLSV.g.resources
+E:\Code & Database\Windowns\Project\QLSV\obj\Debug\QLSV.Properties.Resources.resources
+E:\Code & Database\Windowns\Project\QLSV\obj\Debug\QLSV.csproj.GenerateResource.cache
+E:\Code & Database\Windowns\Project\QLSV\obj\Debug\QLSV.csproj.CoreCompileInputs.cache
+E:\Code & Database\Windowns\Project\QLSV\obj\Debug\QLSV.csproj.CopyComplete
+E:\Code & Database\Windowns\Project\QLSV\obj\Debug\QLSV.exe
+E:\Code & Database\Windowns\Project\QLSV\obj\Debug\QLSV.pdb
+E:\CodeDatabase\Windows\Project\QLSV\bin\Debug\QLSV.exe.config
+E:\CodeDatabase\Windows\Project\QLSV\bin\Debug\QLSV.exe
+E:\CodeDatabase\Windows\Project\QLSV\bin\Debug\QLSV.pdb
+E:\CodeDatabase\Windows\Project\QLSV\bin\Debug\EntityFramework.dll
+E:\CodeDatabase\Windows\Project\QLSV\bin\Debug\EntityFramework.SqlServer.dll
+E:\CodeDatabase\Windows\Project\QLSV\bin\Debug\MaterialDesignColors.dll
+E:\CodeDatabase\Windows\Project\QLSV\bin\Debug\MaterialDesignThemes.Wpf.dll
+E:\CodeDatabase\Windows\Project\QLSV\bin\Debug\Microsoft.Expression.Interactions.dll
+E:\CodeDatabase\Windows\Project\QLSV\bin\Debug\System.Windows.Interactivity.dll
+E:\CodeDatabase\Windows\Project\QLSV\bin\Debug\EntityFramework.xml
+E:\CodeDatabase\Windows\Project\QLSV\bin\Debug\EntityFramework.SqlServer.xml
+E:\CodeDatabase\Windows\Project\QLSV\bin\Debug\MaterialDesignColors.pdb
+E:\CodeDatabase\Windows\Project\QLSV\bin\Debug\MaterialDesignThemes.Wpf.pdb
+E:\CodeDatabase\Windows\Project\QLSV\bin\Debug\MaterialDesignThemes.Wpf.xml
+E:\CodeDatabase\Windows\Project\QLSV\bin\Debug\Microsoft.Expression.Interactions.xml
+E:\CodeDatabase\Windows\Project\QLSV\bin\Debug\System.Windows.Interactivity.xml
+E:\CodeDatabase\Windows\Project\QLSV\obj\Debug\QLSV.csproj.AssemblyReference.cache
+E:\CodeDatabase\Windows\Project\QLSV\obj\Debug\QLSV.csproj.SuggestedBindingRedirects.cache
+E:\CodeDatabase\Windows\Project\QLSV\obj\Debug\DiemWindow.g.cs
+E:\CodeDatabase\Windows\Project\QLSV\obj\Debug\GiangVienWindow.g.cs
+E:\CodeDatabase\Windows\Project\QLSV\obj\Debug\LoginWindow.g.cs
+E:\CodeDatabase\Windows\Project\QLSV\obj\Debug\LopSHWindow.g.cs
+E:\CodeDatabase\Windows\Project\QLSV\obj\Debug\MainWindow.g.cs
+E:\CodeDatabase\Windows\Project\QLSV\obj\Debug\MonHocWindow.g.cs
+E:\CodeDatabase\Windows\Project\QLSV\obj\Debug\SinhVienWindow.g.cs
+E:\CodeDatabase\Windows\Project\QLSV\obj\Debug\TaiKhoanWindow.g.cs
+E:\CodeDatabase\Windows\Project\QLSV\obj\Debug\UserControlQLSV\ControlBarUC.g.cs
+E:\CodeDatabase\Windows\Project\QLSV\obj\Debug\App.g.cs
+E:\CodeDatabase\Windows\Project\QLSV\obj\Debug\QLSV_Content.g.cs
+E:\CodeDatabase\Windows\Project\QLSV\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\CodeDatabase\Windows\Project\QLSV\obj\Debug\QLSV_MarkupCompile.cache
+E:\CodeDatabase\Windows\Project\QLSV\obj\Debug\QLSV_MarkupCompile.lref
+E:\CodeDatabase\Windows\Project\QLSV\obj\Debug\App.baml
+E:\CodeDatabase\Windows\Project\QLSV\obj\Debug\DiemWindow.baml
+E:\CodeDatabase\Windows\Project\QLSV\obj\Debug\GiangVienWindow.baml
+E:\CodeDatabase\Windows\Project\QLSV\obj\Debug\LoginWindow.baml
+E:\CodeDatabase\Windows\Project\QLSV\obj\Debug\LopSHWindow.baml
+E:\CodeDatabase\Windows\Project\QLSV\obj\Debug\MainWindow.baml
+E:\CodeDatabase\Windows\Project\QLSV\obj\Debug\MonHocWindow.baml
+E:\CodeDatabase\Windows\Project\QLSV\obj\Debug\ResourceXAML\MainResource.baml
+E:\CodeDatabase\Windows\Project\QLSV\obj\Debug\SinhVienWindow.baml
+E:\CodeDatabase\Windows\Project\QLSV\obj\Debug\TaiKhoanWindow.baml
+E:\CodeDatabase\Windows\Project\QLSV\obj\Debug\UserControlQLSV\ControlBarUC.baml
+E:\CodeDatabase\Windows\Project\QLSV\obj\Debug\QLSV.g.resources
+E:\CodeDatabase\Windows\Project\QLSV\obj\Debug\QLSV.Properties.Resources.resources
+E:\CodeDatabase\Windows\Project\QLSV\obj\Debug\QLSV.csproj.GenerateResource.cache
+E:\CodeDatabase\Windows\Project\QLSV\obj\Debug\QLSV.csproj.CoreCompileInputs.cache
+E:\CodeDatabase\Windows\Project\QLSV\obj\Debug\QLSV.csproj.CopyComplete
+E:\CodeDatabase\Windows\Project\QLSV\obj\Debug\QLSV.exe
+E:\CodeDatabase\Windows\Project\QLSV\obj\Debug\QLSV.pdb

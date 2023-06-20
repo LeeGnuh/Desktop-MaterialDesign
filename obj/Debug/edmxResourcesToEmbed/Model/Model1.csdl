@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLSVModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="QLSVEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="DangNhaps" EntityType="QLSVModel.DangNhap" />
+    <EntitySet Name="GiangViens" EntityType="QLSVModel.GiangVien" />
+    <EntitySet Name="LopSHes" EntityType="QLSVModel.LopSH" />
+    <EntitySet Name="MonHocs" EntityType="QLSVModel.MonHoc" />
+    <EntitySet Name="PhieuDiems" EntityType="QLSVModel.PhieuDiem" />
+    <EntitySet Name="SinhViens" EntityType="QLSVModel.SinhVien" />
+    <AssociationSet Name="FK__LopSH__Ma_GV__267ABA7A" Association="QLSVModel.FK__LopSH__Ma_GV__267ABA7A">
+      <End Role="GiangVien" EntitySet="GiangViens" />
+      <End Role="LopSH" EntitySet="LopSHes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MonHoc__Ma_GV__29572725" Association="QLSVModel.FK__MonHoc__Ma_GV__29572725">
+      <End Role="GiangVien" EntitySet="GiangViens" />
+      <End Role="MonHoc" EntitySet="MonHocs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SinhVien__Ma_Lop__2C3393D0" Association="QLSVModel.FK__SinhVien__Ma_Lop__2C3393D0">
+      <End Role="LopSH" EntitySet="LopSHes" />
+      <End Role="SinhVien" EntitySet="SinhViens" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PhieuDiem__Ma_Mo__300424B4" Association="QLSVModel.FK__PhieuDiem__Ma_Mo__300424B4">
+      <End Role="MonHoc" EntitySet="MonHocs" />
+      <End Role="PhieuDiem" EntitySet="PhieuDiems" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PhieuDiem__Ma_SV__2F10007B" Association="QLSVModel.FK__PhieuDiem__Ma_SV__2F10007B">
+      <End Role="SinhVien" EntitySet="SinhViens" />
+      <End Role="PhieuDiem" EntitySet="PhieuDiems" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="DangNhap">
+    <Key>
+      <PropertyRef Name="Ten" />
+    </Key>
+    <Property Name="Ten" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TaiKhoan" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="MatKhau" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Cap_TK" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="GiangVien">
+    <Key>
+      <PropertyRef Name="Ma_GV" />
+    </Key>
+    <Property Name="Ma_GV" Type="Int32" Nullable="false" />
+    <Property Name="HoTen" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="GioiTinh" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="NgaySinh" Type="DateTime" Precision="0" />
+    <Property Name="DiaChi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SDT" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="LopSHes" Relationship="QLSVModel.FK__LopSH__Ma_GV__267ABA7A" FromRole="GiangVien" ToRole="LopSH" />
+    <NavigationProperty Name="MonHocs" Relationship="QLSVModel.FK__MonHoc__Ma_GV__29572725" FromRole="GiangVien" ToRole="MonHoc" />
+  </EntityType>
+  <EntityType Name="LopSH">
+    <Key>
+      <PropertyRef Name="Ma_Lop" />
+    </Key>
+    <Property Name="Ma_Lop" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Ma_GV" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="GiangVien" Relationship="QLSVModel.FK__LopSH__Ma_GV__267ABA7A" FromRole="LopSH" ToRole="GiangVien" />
+    <NavigationProperty Name="SinhViens" Relationship="QLSVModel.FK__SinhVien__Ma_Lop__2C3393D0" FromRole="LopSH" ToRole="SinhVien" />
+  </EntityType>
+  <EntityType Name="MonHoc">
+    <Key>
+      <PropertyRef Name="Ma_Mon" />
+    </Key>
+    <Property Name="Ma_Mon" Type="Int32" Nullable="false" />
+    <Property Name="TenMon" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SoChi" Type="Int32" Nullable="false" />
+    <Property Name="Ma_GV" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="GiangVien" Relationship="QLSVModel.FK__MonHoc__Ma_GV__29572725" FromRole="MonHoc" ToRole="GiangVien" />
+    <NavigationProperty Name="PhieuDiems" Relationship="QLSVModel.FK__PhieuDiem__Ma_Mo__300424B4" FromRole="MonHoc" ToRole="PhieuDiem" />
+  </EntityType>
+  <EntityType Name="PhieuDiem">
+    <Key>
+      <PropertyRef Name="Ma_Phieu" />
+    </Key>
+    <Property Name="Ma_Phieu" Type="Int32" Nullable="false" />
+    <Property Name="Ma_SV" Type="Int32" Nullable="false" />
+    <Property Name="Ma_Mon" Type="Int32" Nullable="false" />
+    <Property Name="ChuyenCan" Type="Double" />
+    <Property Name="GiuaKy" Type="Double" />
+    <Property Name="CuoiKy" Type="Double" />
+    <NavigationProperty Name="MonHoc" Relationship="QLSVModel.FK__PhieuDiem__Ma_Mo__300424B4" FromRole="PhieuDiem" ToRole="MonHoc" />
+    <NavigationProperty Name="SinhVien" Relationship="QLSVModel.FK__PhieuDiem__Ma_SV__2F10007B" FromRole="PhieuDiem" ToRole="SinhVien" />
+  </EntityType>
+  <EntityType Name="SinhVien">
+    <Key>
+      <PropertyRef Name="Ma_SV" />
+    </Key>
+    <Property Name="Ma_SV" Type="Int32" Nullable="false" />
+    <Property Name="HoTen" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="GioiTinh" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="NgaySinh" Type="DateTime" Precision="0" />
+    <Property Name="DiaChi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SDT" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Ma_Lop" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="LopSH" Relationship="QLSVModel.FK__SinhVien__Ma_Lop__2C3393D0" FromRole="SinhVien" ToRole="LopSH" />
+    <NavigationProperty Name="PhieuDiems" Relationship="QLSVModel.FK__PhieuDiem__Ma_SV__2F10007B" FromRole="SinhVien" ToRole="PhieuDiem" />
+  </EntityType>
+  <Association Name="FK__LopSH__Ma_GV__267ABA7A">
+    <End Type="QLSVModel.GiangVien" Role="GiangVien" Multiplicity="1" />
+    <End Type="QLSVModel.LopSH" Role="LopSH" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GiangVien">
+        <PropertyRef Name="Ma_GV" />
+      </Principal>
+      <Dependent Role="LopSH">
+        <PropertyRef Name="Ma_GV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MonHoc__Ma_GV__29572725">
+    <End Type="QLSVModel.GiangVien" Role="GiangVien" Multiplicity="1" />
+    <End Type="QLSVModel.MonHoc" Role="MonHoc" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GiangVien">
+        <PropertyRef Name="Ma_GV" />
+      </Principal>
+      <Dependent Role="MonHoc">
+        <PropertyRef Name="Ma_GV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SinhVien__Ma_Lop__2C3393D0">
+    <End Type="QLSVModel.LopSH" Role="LopSH" Multiplicity="1" />
+    <End Type="QLSVModel.SinhVien" Role="SinhVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LopSH">
+        <PropertyRef Name="Ma_Lop" />
+      </Principal>
+      <Dependent Role="SinhVien">
+        <PropertyRef Name="Ma_Lop" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PhieuDiem__Ma_Mo__300424B4">
+    <End Type="QLSVModel.MonHoc" Role="MonHoc" Multiplicity="1" />
+    <End Type="QLSVModel.PhieuDiem" Role="PhieuDiem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MonHoc">
+        <PropertyRef Name="Ma_Mon" />
+      </Principal>
+      <Dependent Role="PhieuDiem">
+        <PropertyRef Name="Ma_Mon" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PhieuDiem__Ma_SV__2F10007B">
+    <End Type="QLSVModel.SinhVien" Role="SinhVien" Multiplicity="1" />
+    <End Type="QLSVModel.PhieuDiem" Role="PhieuDiem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SinhVien">
+        <PropertyRef Name="Ma_SV" />
+      </Principal>
+      <Dependent Role="PhieuDiem">
+        <PropertyRef Name="Ma_SV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

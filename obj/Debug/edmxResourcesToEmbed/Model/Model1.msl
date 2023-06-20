@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QLSVModelStoreContainer" CdmEntityContainer="QLSVEntities">
+    <EntitySetMapping Name="DangNhaps">
+      <EntityTypeMapping TypeName="QLSVModel.DangNhap">
+        <MappingFragment StoreEntitySet="DangNhap">
+          <ScalarProperty Name="Cap_TK" ColumnName="Cap_TK" />
+          <ScalarProperty Name="MatKhau" ColumnName="MatKhau" />
+          <ScalarProperty Name="TaiKhoan" ColumnName="TaiKhoan" />
+          <ScalarProperty Name="Ten" ColumnName="Ten" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GiangViens">
+      <EntityTypeMapping TypeName="QLSVModel.GiangVien">
+        <MappingFragment StoreEntitySet="GiangVien">
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+          <ScalarProperty Name="GioiTinh" ColumnName="GioiTinh" />
+          <ScalarProperty Name="HoTen" ColumnName="HoTen" />
+          <ScalarProperty Name="Ma_GV" ColumnName="Ma_GV" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LopSHes">
+      <EntityTypeMapping TypeName="QLSVModel.LopSH">
+        <MappingFragment StoreEntitySet="LopSH">
+          <ScalarProperty Name="Ma_GV" ColumnName="Ma_GV" />
+          <ScalarProperty Name="Ma_Lop" ColumnName="Ma_Lop" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MonHocs">
+      <EntityTypeMapping TypeName="QLSVModel.MonHoc">
+        <MappingFragment StoreEntitySet="MonHoc">
+          <ScalarProperty Name="Ma_GV" ColumnName="Ma_GV" />
+          <ScalarProperty Name="SoChi" ColumnName="SoChi" />
+          <ScalarProperty Name="TenMon" ColumnName="TenMon" />
+          <ScalarProperty Name="Ma_Mon" ColumnName="Ma_Mon" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PhieuDiems">
+      <EntityTypeMapping TypeName="QLSVModel.PhieuDiem">
+        <MappingFragment StoreEntitySet="PhieuDiem">
+          <ScalarProperty Name="CuoiKy" ColumnName="CuoiKy" />
+          <ScalarProperty Name="GiuaKy" ColumnName="GiuaKy" />
+          <ScalarProperty Name="ChuyenCan" ColumnName="ChuyenCan" />
+          <ScalarProperty Name="Ma_Mon" ColumnName="Ma_Mon" />
+          <ScalarProperty Name="Ma_SV" ColumnName="Ma_SV" />
+          <ScalarProperty Name="Ma_Phieu" ColumnName="Ma_Phieu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SinhViens">
+      <EntityTypeMapping TypeName="QLSVModel.SinhVien">
+        <MappingFragment StoreEntitySet="SinhVien">
+          <ScalarProperty Name="Ma_Lop" ColumnName="Ma_Lop" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+          <ScalarProperty Name="GioiTinh" ColumnName="GioiTinh" />
+          <ScalarProperty Name="HoTen" ColumnName="HoTen" />
+          <ScalarProperty Name="Ma_SV" ColumnName="Ma_SV" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

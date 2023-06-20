@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a8a0b33f462547ed92f37387d88b78b4" Name="Diagram1" ZoomLevel="125">
+        <EntityTypeShape EntityType="QLSVModel.DangNhap" Width="1.5" PointX="0.75" PointY="4.375" />
+        <EntityTypeShape EntityType="QLSVModel.GiangVien" Width="1.5" PointX="0.75" PointY="0.875" />
+        <EntityTypeShape EntityType="QLSVModel.LopSH" Width="1.5" PointX="5" PointY="0.875" />
+        <EntityTypeShape EntityType="QLSVModel.MonHoc" Width="1.5" PointX="2.875" PointY="2.125" />
+        <EntityTypeShape EntityType="QLSVModel.PhieuDiem" Width="1.5" PointX="5" PointY="2.875" />
+        <EntityTypeShape EntityType="QLSVModel.SinhVien" Width="1.5" PointX="7.25" PointY="0.875" />
+        <AssociationConnector Association="QLSVModel.FK__LopSH__Ma_GV__267ABA7A" />
+        <AssociationConnector Association="QLSVModel.FK__MonHoc__Ma_GV__29572725" />
+        <AssociationConnector Association="QLSVModel.FK__SinhVien__Ma_Lop__2C3393D0" />
+        <AssociationConnector Association="QLSVModel.FK__PhieuDiem__Ma_Mo__300424B4" />
+        <AssociationConnector Association="QLSVModel.FK__PhieuDiem__Ma_SV__2F10007B" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

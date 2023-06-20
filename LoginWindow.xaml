@@ -1,0 +1,165 @@
+﻿<Window x:Class="QLSV.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        
+        
+        mc:Ignorable="d"
+        
+        
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        
+        Height="350" Width="400"
+        Name="loginWindown"
+        Title="ĐĂNG NHẬP"
+        
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        WindowStyle="None"
+        
+        xmlns:local="clr-namespace:QLSV"
+        xmlns:uc="clr-namespace:QLSV.UserControlQLSV"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        DataContext="{StaticResource LoginVM}">
+        
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <uc:ControlBarUC Tag="{Binding Title, ElementName=loginWindown}"></uc:ControlBarUC>
+        </Grid>
+        <Grid Grid.Row="1">
+            <TabControl
+                Style="{StaticResource MaterialDesignNavigatilRailTabControl}"
+                    materialDesign:ColorZoneAssist.Mode="SecondaryMid"
+                    materialDesign:ShadowAssist.ShadowDepth="Depth3">
+                <TabItem
+                    Height="70"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    Header="{materialDesign:PackIcon Kind=Login, Size=24}"
+                    Style="{StaticResource MaterialDesignNavigationRailTabItem}"
+                    Background="Green"
+                    ToolTip="Đăng nhập hệ thống">
+                    <Grid>
+                        <materialDesign:Card HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Grid>
+                                <Grid.Resources>
+                                    <Style TargetType="Grid">
+                                        <Setter Property="Margin" Value="15 10 15 10"></Setter>
+                                    </Style>
+                                </Grid.Resources>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid Grid.Row="0">
+                                    <Label Content="ĐĂNG NHẬP HỆ THỐNG" FontWeight="Bold" FontSize="16"></Label>
+                                </Grid>
+                                <Grid Grid.Row="1">
+                                    <TextBox
+                                        Text="{Binding UserName}"    
+                                        materialDesign:HintAssist.Hint="Tên đăng nhập"
+                                        Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                                        VerticalAlignment="Center" />
+                                </Grid>
+                                <Grid Grid.Row="2">
+                                    <PasswordBox
+                                        x:Name="FloatingPasswordBox"
+                                        materialDesign:HintAssist.Hint="Mật khẩu"
+                                        materialDesign:HintAssist.Foreground="Green"
+                                        materialDesign:TextFieldAssist.UnderlineBrush="Green"
+                                        Style="{StaticResource MaterialDesignFloatingHintPasswordBox}">
+                                        <i:Interaction.Triggers>
+                                            <i:EventTrigger EventName="PasswordChanged">
+                                                <i:InvokeCommandAction Command="{Binding txt_Password_CMD}"
+                                                CommandParameter="{Binding ElementName=FloatingPasswordBox}"/>
+                                            </i:EventTrigger>
+                                        </i:Interaction.Triggers>
+                                    </PasswordBox>
+                                </Grid>
+                                <Grid Grid.Row="3">
+                                    <Button
+                                        IsDefault="true"
+                                        Style="{StaticResource MaterialDesignRaisedAccentButton}"
+                                        Width="120"                                          
+                                        Content="Đăng nhập" FontSize="14" 
+                                        Command="{Binding Button_Login_CMD}"
+                                        CommandParameter="{Binding ElementName=loginWindown}"/>
+                                </Grid>
+                            </Grid>
+                        </materialDesign:Card>
+                    </Grid>
+                </TabItem>
+                <TabItem
+                    Height="70"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    Header="{materialDesign:PackIcon Kind=Head, Size=24}"
+                    Style="{StaticResource MaterialDesignNavigationRailTabItem}"
+                    Background="Blue"
+                    ToolTip="Đăng nhập với tư cách sinh viên">
+                    <materialDesign:Card HorizontalAlignment="Center" VerticalAlignment="Center" Height="210">
+                        <Grid>
+                            <Grid.Resources>
+                                <Style TargetType="{x:Type Grid}">
+                                    <Setter Property="Margin" Value="15 10 15 10"/>
+                                </Style>
+                            </Grid.Resources>
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="0">
+                                <TextBlock FontSize="16" FontWeight="Bold" HorizontalAlignment="Center" >
+                                    <Run Text="           ĐĂNG NHẬP" /><LineBreak />                                        
+                                    <Run Text="VỚI TƯ CÁCH SINH VIÊN" /><LineBreak />
+                                </TextBlock>
+                            </Grid>
+                            <Grid Grid.Row="1">
+                                <TextBlock FontStyle="Italic">
+                                    <Run Text="Người dùng chỉ có thể tra cứu thông tin" /><LineBreak />
+                                    <Run Text="khi đăng nhập bằng cách này"/>
+                                </TextBlock>
+                            </Grid>
+                            <Grid Grid.Row="2">
+                                <Button
+                                    Style="{StaticResource MaterialDesignRaisedAccentButton}"
+                                    Width="120"                                       
+                                    Content="Đăng nhập" FontSize="14" />
+                            </Grid>
+                        </Grid>
+                    </materialDesign:Card>
+                </TabItem>
+                <TabItem
+                    Height="70"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    Header="{materialDesign:PackIcon Kind=InformationVariant, Size=24}"
+                    Style="{StaticResource MaterialDesignNavigationRailTabItem}"
+                    Background="Violet"
+                    ToolTip="Thông tin ứng dụng">
+                    <TextBlock>
+                        <Run Text="tab 2 content. Default look and behaviors." />
+                        <LineBreak />
+                        <LineBreak />
+                        <Run FontStyle="Italic" Text="Praesent sed dui arcu. Vivamus porta auctor sagittis"/>
+                    </TextBlock>
+                </TabItem>
+            </TabControl>
+        </Grid>
+    </Grid>
+</Window>
